@@ -12,7 +12,7 @@ ElecGroups = {'ContentSelectiveElec', 'EVElec', 'FaceSelectiveElec', 'FrontoParV
 DataPath = ['E:\Rotem\Adaptation Project\Scripts\ScriptsAndData_BrodayDvir_etal2002\Data_PreSmoothing\']; %edit accordingly
 Colors = {[255/255,195/255,10/255], [65/255,95/255,155/255], [178/255,34/255,34/255], [34/255,139/255,34/255]} ;
 for iROI = 1:numel(ElecGroups)
-clear CurROI ROI_Data
+clear CurROI ROI_Data MeanPerElectrode
 
 %% Load datasets
 
